@@ -45,20 +45,34 @@ text-transform: capitalize;
     width: 64px;
 }
 .weather-temperature strong {
-    font-weight: 500;
-    font-size: 70px;
+    font-weight: 800;
+    font-size: 90px;
     line-height: 1;
 }
-.weather-temperature .units{
+.weather-temperature .units {
     position: relative;
     font-size: 16px;
-    top: -35px;
+    top: -55px;
 }
-.weather-temperature .active{
+.weather-temperature .active {
     color: black;
     cursor: default;
 }
-.weather-temperature .active:hover{
+.weather-temperature .active:hover {
     text-decoration: underline;
+
+}
+
+.weather-forecast {
+margin-top: 20px;
+text-align: center;
+color: #000;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temperatures-min {
+  opacity: 0.6;
 
 }
